@@ -38,7 +38,4 @@ ttdeps:
 	@ find /foss/pdks/volare/sky130/versions \
 	-path "*sky130A/libs.tech/ngspice/corners*" \
 	-name "tt.spice"
-	
-	fi
-	@echo "up_listenPort set to $(PORT) in $(GAWRC)"
 
